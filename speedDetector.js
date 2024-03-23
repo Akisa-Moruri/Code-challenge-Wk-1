@@ -15,6 +15,6 @@ function calculateDemerits(speed) {
     return demerits;
   }
 
-  // Example usage
+  //Example usage
   const speed = parseInt(prompt("Please enter the speed of the car (between 0 and 100):"));
   const demerits = calculateDemerits(speed);
